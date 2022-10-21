@@ -1,14 +1,20 @@
 {
   "name": "adapt-pageTitle",
-  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NayanKhedkar/adapt-pageTitle.git"
+  },
   "framework": ">=5.18",
+  "version": "1.0.0",
   "homepage": "https://github.com/NayanKhedkar/adapt-pageTitle",
   "bugs": "https://github.com/NayanKhedkar/adapt-pageTitle/issues",
   "extension": "pageTitle",
   "displayName": "PageTitle",
   "description": "An extension which show the page title on navigation.",
   "main": "/js/adapt-pageTitle.js",
-  "authors": ["Nayan Khedkar <https://github.com/NayanKhedkar>"],
+  "authors": [
+    "Nayan Khedkar <https://github.com/NayanKhedkar>"
+  ],
   "keywords": [
     "adapt-plugin",
     "adapt-extension"
