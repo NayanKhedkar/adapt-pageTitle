@@ -1,0 +1,18 @@
+{
+  "name": "adapt-page-title",
+  "version": "1.0.0",
+  "framework": ">=5.18",
+  "homepage": "https://github.com/adaptlearning/adapt-pageTitle",
+  "bugs": "https://github.com/adaptlearning/adapt-pageTitle/issues",
+  "extension": "pageTitle",
+  "displayName": "PageTitle",
+  "description": "An extension which show the page title on navigation.",
+  "main": "/js/adapt-pageTitle.js",
+  "authors": ["Nayan Khedkar <>"],
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPL-3.0",
+  "targetAttribute": "_pageTitle"
+}

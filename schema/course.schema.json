@@ -1,0 +1,28 @@
+{
+  "$anchor": "page-title",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "$patch": {
+    "source": {
+      "$ref": "course"
+    },
+    "with": {
+      "properties": {
+        "_pageTitle": {
+          "type": "object",
+          "title": "Page Title",
+          "default": {},
+          "required": [],
+          "properties": {
+            "_isEnabled": {
+              "type": "boolean",
+              "title": "Enable Page Title",
+              "description": "Controls whether the page title is enabled or disabled",
+              "default": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

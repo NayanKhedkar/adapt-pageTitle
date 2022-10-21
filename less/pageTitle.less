@@ -1,0 +1,29 @@
+.page__nav-title {
+  z-index: -1;
+  &.center {
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 60%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page__nav-title-inner {
+    margin: 0;
+    position: relative;
+
+    .page__nav-title-text {
+      text-align: center;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: @white;
+    }
+  }
+}
