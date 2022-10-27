@@ -1,6 +1,9 @@
 {
   "name": "adapt-pageTitle",
-  "repository": "https://github.com/NayanKhedkar/adapt-pageTitle.git",
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/NayanKhedkar/adapt-pageTitle.git"
+  },
   "framework": ">=5.18",
   "version": "1.0.0",
   "homepage": "https://github.com/NayanKhedkar/adapt-pageTitle",
