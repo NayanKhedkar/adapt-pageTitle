@@ -5,9 +5,19 @@
 
 <img src="https://github.com/NayanKhedkar/gif_file/blob/main/page_title.gif?raw=true" alt="page_title.gif">
 
+## Installation
+This component can be installed using the by running the below command in framework root directory:
+
+    `adapt install adapt-pageTitle`
+
+This component can also be installed by adding the component to the adapt.json file before running `adapt install`:
+
+    `"adapt-pageTitle": "*"`
+    
+
 ## Settings overview
 
-**pageTitle**, and are properly formatted as JSON in [example.json](https://github.com/NayanKhedkar/adapt-pageTitle/blob/master/example.json) file.
+A complete example of this components settings can be found in the [example.json](https://github.com/NayanKhedkar/adapt-pageTitle/blob/master/example.json) file.
 
 ## Limitations
 
